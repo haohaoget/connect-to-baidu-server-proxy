@@ -48,7 +48,7 @@ function wa_lua_on_handshake_cb(ctx)
                     'Host: ascdn.baidu.com\r\n' ..
                     'Proxy-Connection: Keep-Alive\r\n'..
                     'X-T5-Auth: 1951164069\r\n' ..
-                    'User-Agent: okhttp/3.11.0 SP-engine/2.71.0 Dalvik/2.1.0 (Linux; U; Android 9; HMA-AL00 Build/PQ3B.190801.002) baiduboxapp/13.33.0.11 (Baidu; P1 9)\r\n\r\n'
+                    'User-Agent: okhttp/3.11.0 SP-engine/2.71.0 Dalvik/2.1.0 (Linux; U; Android 16; HMA-AL00 Build/PQ3B.190801.002) baiduboxapp/13.33.0.11 (Baidu; P1 9)\r\n\r\n'
         ctx_write(ctx, res)
         flags[uuid] = kHttpHeaderSent
     end
